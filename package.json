@@ -1,0 +1,27 @@
+{
+  "name": "broadcaster",
+  "version": "1.0.0",
+  "description": "A NodeJS adhoc WebSocket server. Receives messages from clients, and broadcasts them to all clients.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caseyfw/broadcaster.git"
+  },
+  "keywords": [
+    "websocket",
+    "broadcast"
+  ],
+  "dependencies": {
+    "ws": "^2.1.0"
+  },
+  "author": "Casey Fulton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/caseyfw/broadcaster/issues"
+  },
+  "homepage": "https://github.com/caseyfw/broadcaster#readme"
+}
